@@ -1,0 +1,78 @@
+.navbar {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: end;
+
+    a {
+        display: inline-block;
+        vertical-align: top;
+        margin-right: 90px;
+        height: 51px;
+        line-height: 150px;
+        font-size: 29px;
+
+        i {
+            transition: all 0.3s ease-out;
+        }
+
+        &:hover {
+            color: rgb(222, 110, 110);
+
+            svg {
+                opacity: 0;
+            }
+
+            &:after {
+                opacity: 1;
+            }
+        }
+
+        &:after {
+            content: '';
+            font-size: 9px;
+            letter-spacing: 2px;
+            position: absolute;
+            bottom: 0;
+            display: block;
+            width: 100%;
+            text-align: center;
+            opacity: 0;
+            -webkit-transition: all 0.3s ease-out;
+            transition: all 0.3s ease-out;
+        }
+
+        &:first-child {
+            &::after {
+                content:'HOME';
+                color:rgb(222, 110, 110);
+            }
+        }
+    }
+
+    a.about-link {
+        &:after {
+            content: 'ABOUT';
+        }
+    }
+
+    a.projects-link {
+        &:after {
+            content: 'MY PROJECTS';
+        }
+    }
+
+    a.contact-link {
+        &:after {
+            content: 'CONTACT ME';
+        }
+    }
+
+    a.active {
+        svg {
+            color:rgb(222, 110, 110);
+        }
+
+    }
+
+}
