@@ -1,24 +1,54 @@
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { NavLink } from 'react-router-dom'
 import { faHome, faUser, faEnvelope, faDisplay } from '@fortawesome/free-solid-svg-icons'
 import './index.scss'
+import Navitem from './Navitem'
 
-const Navbar = () => (
-    <nav className='navbar'>
-        <NavLink exact="true" activeclassname="active" to="/">
-            <FontAwesomeIcon icon={faHome} color="#000" />
-        </NavLink>
-        <NavLink exact="true" activeclassname="active" className="about-link" to="/about">
-            <FontAwesomeIcon icon={faUser} color="#000" />
-        </NavLink>
-        <NavLink exact="true" activeclassname="active" className="projects-link" to="/projects">
-            <FontAwesomeIcon icon={faDisplay} color="#000" />
-        </NavLink>
-        <NavLink exact="true" activeclassname="active" className="contact-link" to="/contact">
-            <FontAwesomeIcon icon={faEnvelope} color="#000" />
-        </NavLink>
-    </nav>
+export default function Navbar (){
 
-)
+    const navItems = [
+        {
+            to: '/',
+            icon: faHome,
+            title: 'HOME',
+            color: "rgb(222, 110, 110)"
+        },
+        {
+            to: '/',
+            icon: faUser,
+            title: 'ABOUT',
+            color: "#000" 
+        },
+        {
+            to: '/',
+            icon: faDisplay,
+            title: 'WORK',
+            color: "#000" 
+        },
+        {
+            to: '/',
+            icon: faEnvelope,
+            title: 'CONTACT ME',
+            color: "#000" 
+        },
+    ]
 
-export default Navbar
+
+
+
+    return (
+        <nav className='navbar'>
+            {navItems.map((item) => {
+                return (
+                    <Navitem 
+                        key={item.title}
+                        to={item.to} 
+                        color={item.color} 
+                        title={item.title} 
+                        icon={item.icon}
+                        />
+                )
+            })}
+        </nav>
+
+    )
+}
+
