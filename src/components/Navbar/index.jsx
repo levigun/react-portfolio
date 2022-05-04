@@ -12,19 +12,19 @@ export default function Navbar (){
             color: "rgb(222, 110, 110)"
         },
         {
-            to: '/',
+            to: '/about',
             icon: faUser,
             title: 'ABOUT',
             color: "#000" 
         },
         {
-            to: '/',
+            to: '/projects',
             icon: faDisplay,
             title: 'WORK',
             color: "#000" 
         },
         {
-            to: '/',
+            to: '/contact',
             icon: faEnvelope,
             title: 'CONTACT ME',
             color: "#000" 

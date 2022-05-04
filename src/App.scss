@@ -1,4 +1,4 @@
-$primary-color: #f4e9e8;
+$primary-color: #f7e5e4;
 
 @import 'animate.css';
 
@@ -22,4 +22,8 @@ $primary-color: #f4e9e8;
 input,
 textarea {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+  background-color:#f7e5e4;
 }
