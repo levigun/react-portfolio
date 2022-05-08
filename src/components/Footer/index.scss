@@ -1,8 +1,12 @@
 .footer {
     width: 100%;
-    font-size: 2rem;
     bottom: 0;
     text-align: center;
     box-sizing: border-box;
-    background-color: var(--secondary-color);
+    background-color: #ffc0cb;
+}
+
+.btn-contact{
+    background-color: #f4e9e8;
+    font-size: 35px;
 }
