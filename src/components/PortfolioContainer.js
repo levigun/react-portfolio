@@ -13,9 +13,6 @@ import {
 
 export default function PortfolioContainer() {
 
-  // return (
-  //   <div>Hi</div>
-  // )
   return (
   <>
     <BrowserRouter>

@@ -23,7 +23,7 @@ export default function Footer() {
         </div>
         <div className='footer'>
             <h3 className='py-1' style={{fontSize: '22px'}}>
-                &copy;2021 Theresa Levina Gunawan.
+                &copy;2022 Theresa Levina Gunawan.
             </h3>
         </div>
     </>
