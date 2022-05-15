@@ -45,6 +45,7 @@ export default function Navbar (){
                         title={item.title} 
                         icon={item.icon}
                         />
+                    // add logic here for rendering navbar of mobileView when the maxwidth 570px
                 )
             })}
         </nav>

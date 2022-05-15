@@ -3,7 +3,7 @@ import Footer from './Footer'
 import React from 'react';
 import Home from './pages/Home';
 import About from './pages/About';
-import Projects from './pages/Projects';
+import ProjectPage from './pages/ProjectPage';
 import Contact from './pages/Contact';
 import {
   BrowserRouter,
@@ -20,7 +20,7 @@ export default function PortfolioContainer() {
       <Routes>
         <Route path="/" element={<Home/>} />
         <Route path="/about" element={<About/>} />
-        <Route path="/projects" element={<Projects/>} />
+        <Route path="/projects" element={<ProjectPage/>} />
         <Route path="/contact" element={<Contact/>} />
       </Routes>
       <Footer />

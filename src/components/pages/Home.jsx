@@ -1,5 +1,6 @@
 import React from 'react'
 import background from './images/background-img.webp'
+import '../../App.scss'
 
 
 const styles = {
@@ -15,8 +16,8 @@ export default function Home() {
   return (
     <div className="vh-100 d-flex justify-content-center align-items-center text-center" style={styles.background}>
       <section>
-        <article style={{fontSize: '700%'}}>I'm Levina.</article>
-        <article style={{fontSize: '400%'}}>pastry chef turned learning developer</article>
+        <article className="heading" style={{fontSize: '700%'}}>I'm Levina.</article>
+        <article className="sub-heading" style={{fontSize: '400%'}}>pastry chef turned learning developer</article>
       </section>
     </div>
   )
