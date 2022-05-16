@@ -7,7 +7,7 @@ This is my portfolio built with React and deployed through GitHub Pages. Made wi
 ## Getting Started
 
 Click this link to see it!
-https://levigun.github.io/
+https://levigun.github.io/react-portfolio/
 
 ## User Story
 ```
