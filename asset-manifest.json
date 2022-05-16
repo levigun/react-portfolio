@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.3149d77e.css",
-    "main.js": "/static/js/main.d9d74781.js",
-    "static/media/background-img.webp": "/static/media/background-img.2477e883a179cdc85a5e.webp",
-    "static/media/weather-app-look.png": "/static/media/weather-app-look.1b989345160cdcb5c357.png",
-    "static/media/cryptomuggles-logo.png": "/static/media/cryptomuggles-logo.5dba46069eac65ec46f4.png",
-    "index.html": "/index.html",
-    "main.3149d77e.css.map": "/static/css/main.3149d77e.css.map",
-    "main.d9d74781.js.map": "/static/js/main.d9d74781.js.map"
+    "main.css": "/react-portfolio/static/css/main.3149d77e.css",
+    "main.js": "/react-portfolio/static/js/main.1d353180.js",
+    "static/media/background-img.webp": "/react-portfolio/static/media/background-img.2477e883a179cdc85a5e.webp",
+    "static/media/weather-app-look.png": "/react-portfolio/static/media/weather-app-look.1b989345160cdcb5c357.png",
+    "static/media/cryptomuggles-logo.png": "/react-portfolio/static/media/cryptomuggles-logo.5dba46069eac65ec46f4.png",
+    "index.html": "/react-portfolio/index.html",
+    "main.3149d77e.css.map": "/react-portfolio/static/css/main.3149d77e.css.map",
+    "main.1d353180.js.map": "/react-portfolio/static/js/main.1d353180.js.map"
   },
   "entrypoints": [
     "static/css/main.3149d77e.css",
-    "static/js/main.d9d74781.js"
+    "static/js/main.1d353180.js"
   ]
 }
