@@ -1,9 +1,15 @@
 import React from 'react'
 import '../../App.scss'
 
+const styles = {
+  minHeight: {
+    minHeight: '81vh'
+  }
+}
+
 export default function About() {
   return (
-    <div className='d-flex flex-column justify-content-center align-items-center text-center vh-100'>
+    <div style={styles.minHeight} className='d-flex flex-column justify-content-center align-items-center text-center'>
       <h1  style={{fontSize: '500%'}}> About Me </h1>
         <p  style={{fontSize: '200%'}}>
                 I am originally from Indonesia who migrated to Sydney, Australia in 2018.

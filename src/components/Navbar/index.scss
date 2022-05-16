@@ -11,11 +11,10 @@
         vertical-align: top;
         margin-right: 90px;
         height: 51px;
-        line-height: 150px;
         font-size: 27px;
 
 
-        &:hover {
+        &:active, &:hover {
             color: rgb(222, 110, 110);
 
         }
@@ -24,4 +23,3 @@
     }
 
 }
-

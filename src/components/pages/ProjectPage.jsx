@@ -4,7 +4,7 @@ import Projects from '../Projects'
 
 const ProjectPage = () => {
   return (
-    <div className='container-fluid'>
+    <div>
       <Projects/>
     </div>
   )

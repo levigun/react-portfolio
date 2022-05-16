@@ -10,10 +10,23 @@ export default function Navitem(props) {
 
     const [showTitle, setShowTitle] = useState(false);
 
+    function getScreenWidth(){
+        return document.body.clientWidth;
+    }
+
     function onHoverIcon(){
+
+        // do noth when below 768px
+
+        const width = getScreenWidth();
+
+        if(width > 768){
+            setShowTitle(true)
+        }
+
+
         console.log('hovering');
 
-        setShowTitle(true)
 
     }
 

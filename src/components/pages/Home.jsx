@@ -8,13 +8,15 @@ const styles = {
     backgroundImage: `url(${background})`,
     backgroundRepeat: 'noRepeat',
     backgroundSize: 'cover',
-    backgroundPosition: 'center'
+    backgroundPosition: 'center',
+    minHeight: '81vh'
   }
+  
 }
 
 export default function Home() {
   return (
-    <div className="vh-100 d-flex justify-content-center align-items-center text-center" style={styles.background}>
+    <div className="d-flex justify-content-center align-items-center text-center" style={styles.background}>
       <section>
         <article className="heading" style={{fontSize: '700%'}}>I'm Levina.</article>
         <article className="sub-heading" style={{fontSize: '400%'}}>pastry chef turned learning developer</article>

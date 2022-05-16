@@ -17,6 +17,9 @@ img {
     width: 280px;
     height: 230px;
 }
+.min-height {
+    min-height: 81vh;
+}
 
 @media only screen and (max-width: 570px) {
     .card-container{
