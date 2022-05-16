@@ -7,7 +7,7 @@ This is my portfolio built with React and deployed through GitHub Pages. Made wi
 ## Getting Started
 
 Click this link to see it!
-https://levigun.github.io/react-portfolio/
+https://levigun.github.io/
 
 ## User Story
 ```
@@ -20,9 +20,6 @@ I am presented with a navigation bar and an introductory page.
 When I am presented with the navigation bar
 I can click each of them and it will redirect me.
 
-When I scroll tha page
-I am presented information about the developer.
-
 When I click on the developers work
 I an redirected to their github repository with their deployed link.
 
@@ -33,10 +30,6 @@ When I click the icons on the footer
 I will be directed to the developers linkedin and github profile.
 ```
 
-## Website Look
-
-![Portfolio](./assets/images/PORTFOLIO.gif)
-
 ## Credits
 https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide
 
@@ -44,5 +37,5 @@ https://stackoverflow.com
 
 ## License
 
-©2021 Theresa Levina Gunawan.
+©2022 Theresa Levina Gunawan.
 
