@@ -18,7 +18,7 @@ export default function PortfolioContainer() {
     <BrowserRouter>
       <Navbar />
       <Routes>
-        <Route path="/" element={<Home/>} />
+        <Route exact path="/" element={<Home/>} />
         <Route path="/about" element={<About/>} />
         <Route path="/projects" element={<ProjectPage/>} />
         <Route path="/contact" element={<Contact/>} />
