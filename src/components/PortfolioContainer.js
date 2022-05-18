@@ -15,7 +15,7 @@ export default function PortfolioContainer() {
 
   return (
   <>
-    <BrowserRouter>
+    <BrowserRouter basename='/react-portfolio'>
       <Navbar />
       <Routes>
         <Route exact path="/" element={<Home/>} />
